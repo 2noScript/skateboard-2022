@@ -1,2 +1,1 @@
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+deploy [https://t2022-skateboard.vercel.app/discover](https://t2022-skateboard.vercel.app/discover) to view it in your browser.

@@ -45,9 +45,13 @@
 	// display: none;
 }
 
+@keyframes animation-logo {
+}
+
 .sidebar {
 	// width: 220px;
 	// background-color: aqua;
+
 	width: 220px;
 	height: 100%;
 	padding: 30px;
@@ -62,21 +66,23 @@
 
 	.logo {
 		transition: all 0.4s linear 0s;
-
 		position: sticky;
 		left: 0;
 		top: 0;
 		width: 100%;
-		z-index: 1000;
+		z-index: 100;
 		padding-top: 8px;
 		background-color: var(--theme-bg);
 		z-index: 1000;
 		margin-bottom: 12px;
-		// background-color: aliceblue;
-		// display: none;
-		// visibility: hidden;
+
 		&-img {
 			width: 80px;
+			// animation: animation-logo 4s linear 0s infinite;
+			// animation-direction: alternate-reverse;
+			// transition: all 0.2s linear 0s;
+			transform: rotateX(25deg) translateX(-2px) translateY(4px);
+			z-index: 1000;
 		}
 		&-text {
 			background-color: inherit;

@@ -20,17 +20,17 @@ const MENU = [
 	{
 		name: 'streaming',
 		icon: <FiActivity />,
-		link: '/#',
+		link: '/streaming',
 	},
 	{
 		name: 'playlist',
 		icon: <TbFileDownload />,
-		link: '',
+		link: '/playlist',
 	},
 	{
 		name: 'bookmark',
 		icon: <RiBookMarkLine />,
-		link: '',
+		link: '/bookmark',
 	},
 ];
 
@@ -38,22 +38,22 @@ const CATEGORY = [
 	{
 		name: 'live stream',
 		icon: <RiGamepadLine />,
-		link: '',
+		link: '/live-tream',
 	},
 	{
 		name: 'tutorial',
 		icon: <MdBarChart />,
-		link: '',
+		link: '/tutorial',
 	},
 	{
 		name: 'competation',
 		icon: <SiMinetest />,
-		link: '',
+		link: '/competation',
 	},
 	{
 		name: 'community',
 		icon: <MdGroups />,
-		link: '',
+		link: '/community',
 	},
 ];
 export {MENU, CATEGORY};

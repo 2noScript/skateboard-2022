@@ -1,10 +1,11 @@
-import RenderRoutes from "./components/RenderRoutes";
+import RenderRoutes from './components/RenderRoutes';
 function App() {
-  return (
-    <div>
-      <RenderRoutes />
-    </div>
-  );
+	document.title = 'Skateboard';
+	return (
+		<div>
+			<RenderRoutes />
+		</div>
+	);
 }
 
 export default App;
