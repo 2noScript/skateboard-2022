@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 :root {
 	--body-font: 'Inter', sans-serif;
 	--theme-bg: #1f1d2b;
-	--body-color: #808191;
-	--button-bg: #353340;
-	--border-color: rgb(128 129 145 / 24%);
+	--text-primary-color: #808191;
+	--bg-element-primary: #353340;
+	--border-color: #8081913d;
 	--video-bg: #252936;
 	--delay: 0s;
 }
@@ -33,7 +33,7 @@ body {
 
 ::-webkit-scrollbar-thumb {
 	z-index: 999;
-	background-color: var(--button-bg);
+	background-color: var(--bg-element-primary);
 	border-radius: 4px;
 }
 
@@ -58,4 +58,19 @@ ul {
 a[href] {
 	color: var(--text-color);
 	text-decoration: none;
+}
+
+@keyframes bottom {
+	0% {
+		transform: translateY(100px);
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+		transform: none;
+	}
+}
+
+.anim {
+	animation: bottom 0.8s var(--delay) both;
 }
